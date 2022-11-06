@@ -33,7 +33,7 @@ const ContactSection = () => {
             <div id="commentErrorMessage" className="errorMessage"></div>
           </div>
           <div>
-            <button type="submit" className="btn-theme">
+            <button type="submit" className="__btn-theme">
               <span className="corner-topLeft"></span>
               <span className="corner-bottomRight"></span>
               Post Comments
