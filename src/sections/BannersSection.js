@@ -1,12 +1,12 @@
 import React from "react";
-import img1 from "../images/img1.svg";
-import img2 from "../images/img2.svg";
+import image1 from "../assets/images/img1.svg";
+import image2 from "../assets/images/img2.svg";
 
 const BannersSection = () => {
   return (
     <section class="__banners container">
-        <img src={img1} alt=""/>
-        <img src={img2} alt=""/>
+        <img src={image1} alt=""/>
+        <img src={image2} alt=""/>
    </section>
   );
 };

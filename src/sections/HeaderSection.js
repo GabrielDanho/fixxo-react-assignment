@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../images/placeholder-female-sitting.svg";
-import img2 from "../images/placeholder-male-sitting.svg";
+import img1 from "../assets/images/placeholder-female-sitting.svg";
+import img2 from "../assets/images/placeholder-male-sitting.svg";
 import NavSection from "./NavSection";
 
 const HeaderSection = () => {

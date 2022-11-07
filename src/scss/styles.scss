@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 @import "./cores/_variables";
 @import "./cores/base";
+@import "./cores/buttons";
 
 /* section */
 @import "./sections/_BreadscrumbSection";
@@ -11,3 +12,7 @@
 @import "./sections/NavSection";
 @import "./sections/CustomerSection";
 @import "./sections/BannersSection";
+@import "./sections/ProductGridSection";
+@import "./sections/ProductsViewSection";
+@import "./sections/CategoriesDetailsView";
+
