@@ -3,7 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
-}
+} 
 
 a {
   color: $color-theme;
@@ -36,8 +36,9 @@ $linear-gradient-light 100%
   text-align: center;
   background-color: $color-theme;
   color: $color-white;
-  padding: 20px 50px;
+  padding: 15px 60px;
   transition: all 0.2s ease-in-out;
+  border: none;
 }
 .__btn-theme:hover {
   color: $color-white !important;

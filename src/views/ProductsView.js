@@ -3,7 +3,7 @@ import FooterSection from "../sections/FooterSection";
 import NavSection from "../sections/NavSection";
 
 const ProductsView = () => {
-  window.top.document.title = "Fixxo | Home";
+  window.top.document.title = "Fixxo | Products";
 
   return <>
      <NavSection />

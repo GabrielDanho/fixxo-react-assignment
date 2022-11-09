@@ -7,7 +7,7 @@ const BreadcrumbSection = () => {
       <div className="container">
         <ul className="breadcrumb-list">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="me-1">Home</Link>
           </li>
           <li>Contacts</li>
         </ul>

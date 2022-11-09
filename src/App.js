@@ -14,7 +14,6 @@ function App() {
         <Route path="contacts" element={<ContactView/>}/>
         <Route path="/products/:name" element={<ProductDetailsView />} />
         <Route path="products" element={<ProductsView/>}/>
-        
       </Routes>
     </BrowserRouter>
   );
