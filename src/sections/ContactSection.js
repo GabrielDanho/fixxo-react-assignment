@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const ContactSection = () => {
   const [contactSection, setContactSection] = useState({name: '', email: '', comment: ''})
   const [formErrors, setFormErrors] = useState ({})
-  const [Submitted, setSubmitted] = useState(false)
+  const [submitted, setSubmitted] = useState(false)
 
   const validate = (values) => {
       const errors = {}
@@ -27,7 +27,7 @@ const ContactSection = () => {
        else
           setSubmitted(false)
 
-      return errors = {}
+      return errors;
   }
 
   const handleChange = (e) => {
@@ -45,7 +45,7 @@ const ContactSection = () => {
     <section className="contact-form">
       <div className="container">
           {
-              Submitted ? 
+              submitted ? 
               (<div className="d-flex justify-content-center- align-items-center">
                   <div>Thank you for your comment</div>
               </div>)
@@ -56,15 +56,15 @@ const ContactSection = () => {
         <pre>{ JSON.stringify(formErrors) }</pre>
         <form onsubmit={handleSubmit} noValidate>
           <div>
-            <input id="name" type="text" placeholder="Your Name" value={contactForm.name} onChange={handleChange} />
+            <input id="name" type="text" placeholder="Your Name" value={contactSection.name} onChange={handleChange} />
             <div className="errorMessage">{formErrors.name}</div>
           </div>
           <div>
-            <input id="email" type="email" placeholder="Your Mail" value={contactForm.email} onChange={handleChange} />
+            <input id="email" type="email" placeholder="Your Mail" value={contactSection.email} onChange={handleChange} />
             <div className="errorMessage">{formErrors.email}</div>
           </div>
           <div className="textarea">
-            <textarea id="comment" placeholder="Comments" value={contactForm.comment} onChange={handleChange}></textarea>
+            <textarea id="comment" placeholder="Comments" value={contactSection.comment} onChange={handleChange}></textarea>
             <div className="errorMessage">{formErrors.comment}</div>
           </div>
           <div>

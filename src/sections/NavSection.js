@@ -7,7 +7,7 @@ const NavSection = () => {
       <div className="__logo">Fixxo.</div>
       <div className="__nav-links">
         <NavLink to="/">Home</NavLink>
-        <NavLink to="#">Categories</NavLink>
+        <NavLink to="/categories">Categories</NavLink>
         <NavLink to="/products">Products</NavLink>
         <NavLink to="/contacts">Contacts</NavLink>
       </div>
