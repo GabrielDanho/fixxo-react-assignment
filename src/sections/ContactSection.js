@@ -38,7 +38,6 @@ const ContactSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setFormErrors(validate(contactSection))
-
   }
 
   return (
@@ -53,7 +52,6 @@ const ContactSection = () => {
             (
               <>
                 <h2>Come in Contact with Us</h2>
-                <pre>{JSON.stringify(formErrors)}</pre>
                 <form onSubmit={handleSubmit} noValidate>
                   <div>
                     <input id="name" type="text" placeholder="Your Name" value={contactSection.name} onChange={handleChange} />
