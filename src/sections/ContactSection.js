@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { validate } from "../scss/components/ContactSection_validation";
 
 const ContactSection = () => {
   const [contactSection, setContactSection] = useState({ name: '', email: '', comment: '' })
